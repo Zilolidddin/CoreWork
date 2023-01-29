@@ -13,6 +13,8 @@
 		B125877F297FA18B00A8A6F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B125877E297FA18B00A8A6F0 /* Preview Assets.xcassets */; };
 		B1258781297FA18B00A8A6F0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1258780297FA18B00A8A6F0 /* Persistence.swift */; };
 		B1258784297FA18B00A8A6F0 /* CoreWork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1258782297FA18B00A8A6F0 /* CoreWork.xcdatamodeld */; };
+		B125878B297FA3BA00A8A6F0 /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125878A297FA3BA00A8A6F0 /* DetailScreen.swift */; };
+		B125878D297FA6B100A8A6F0 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125878C297FA6B100A8A6F0 /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		B125877E297FA18B00A8A6F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B1258780297FA18B00A8A6F0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B1258783297FA18B00A8A6F0 /* CoreWork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreWork.xcdatamodel; sourceTree = "<group>"; };
+		B125878A297FA3BA00A8A6F0 /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		B125878C297FA6B100A8A6F0 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				B1258777297FA18B00A8A6F0 /* CoreWorkApp.swift */,
+				B125878A297FA3BA00A8A6F0 /* DetailScreen.swift */,
 				B1258779297FA18B00A8A6F0 /* ContentView.swift */,
+				B125878C297FA6B100A8A6F0 /* TaskCell.swift */,
 				B125877B297FA18B00A8A6F0 /* Assets.xcassets */,
 				B1258780297FA18B00A8A6F0 /* Persistence.swift */,
 				B1258782297FA18B00A8A6F0 /* CoreWork.xcdatamodeld */,
@@ -143,9 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B125878B297FA3BA00A8A6F0 /* DetailScreen.swift in Sources */,
 				B1258781297FA18B00A8A6F0 /* Persistence.swift in Sources */,
 				B1258784297FA18B00A8A6F0 /* CoreWork.xcdatamodeld in Sources */,
 				B125877A297FA18B00A8A6F0 /* ContentView.swift in Sources */,
+				B125878D297FA6B100A8A6F0 /* TaskCell.swift in Sources */,
 				B1258778297FA18B00A8A6F0 /* CoreWorkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
